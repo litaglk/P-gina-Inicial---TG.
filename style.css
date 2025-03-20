@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+section {
+    background-color: #FCDDC6;
+    color: #6B3430;
+}
+
+header {
+    background-color: #FC9372;
+    padding: 20px;
+    text-align: center;
+    color: #6B3430;
+}
+
+main {
+    display: flex;
+    flex-grow: 1; /* Permite que o main ocupe o espaço restante */
+}
+
+.infos {
+    width: 20%;
+    background-color: #A5504A;
+    color: #FCDDC6;
+    padding: 20px;
+    order: -1; /* Força o infos a aparecer à esquerda */
+}
+
+section {
+    flex-grow: 1; /* Permite que a section (conteúdo principal) ocupe o espaço central */
+    padding: 20px;
+}
+
+.skills {
+    width: 20%;
+    background-color: #A5504A;
+    color: #FCDDC6;
+    padding: 20px;
+    order: 1; /* Força o skills a aparecer à direita */
+}
+
+footer {
+    background-color: #FC9372;
+    color: #6B3430;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #6B3430;
+    text-decoration: none;
+}
