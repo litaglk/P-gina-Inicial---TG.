@@ -21,7 +21,7 @@ header {
 
 main {
     display: flex;
-    flex-grow: 1; /* Permite que o main ocupe o espaço restante */
+    flex-grow: 1;
 }
 
 .infos {
@@ -29,11 +29,11 @@ main {
     background-color: #A5504A;
     color: #FCDDC6;
     padding: 20px;
-    order: -1; /* Força o infos a aparecer à esquerda */
+    order: -1;
 }
 
 section {
-    flex-grow: 1; /* Permite que a section (conteúdo principal) ocupe o espaço central */
+    flex-grow: 1;
     padding: 20px;
 }
 
@@ -42,7 +42,7 @@ section {
     background-color: #A5504A;
     color: #FCDDC6;
     padding: 20px;
-    order: 1; /* Força o skills a aparecer à direita */
+    order: 1;
 }
 
 footer {
